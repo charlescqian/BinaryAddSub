@@ -1,5 +1,5 @@
 Flow report for binaryAddSub
-Sun Feb 10 22:52:46 2019
+Sun Feb 10 23:58:43 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Feb 10 22:52:39 2019       ;
+; Flow Status                     ; Successful - Sun Feb 10 23:58:35 2019       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; binaryAddSub                                ;
 ; Top-level Entity Name           ; binaryAddSub                                ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/10/2019 22:52:01 ;
+; Start date & time ; 02/10/2019 23:57:59 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; binaryAddSub        ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 123745747103895.154986792021192        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 123745747103895.154987187703136        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,11 +95,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4869 MB             ; 00:00:22                           ;
-; Fitter               ; 00:00:18     ; 1.0                     ; 6224 MB             ; 00:00:25                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4833 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.1                     ; 5072 MB             ; 00:00:06                           ;
-; Total                ; 00:00:43     ; --                      ; --                  ; 00:00:57                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4867 MB             ; 00:00:24                           ;
+; Fitter               ; 00:00:18     ; 1.0                     ; 6223 MB             ; 00:00:24                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4835 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.1                     ; 5072 MB             ; 00:00:06                           ;
+; Total                ; 00:00:42     ; --                      ; --                  ; 00:00:58                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

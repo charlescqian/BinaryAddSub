@@ -1,5 +1,5 @@
 Fitter report for binaryAddSub
-Sun Feb 10 22:52:33 2019
+Sun Feb 10 23:58:29 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -60,7 +60,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Sun Feb 10 22:52:32 2019       ;
+; Fitter Status                   ; Successful - Sun Feb 10 23:58:29 2019       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; binaryAddSub                                ;
 ; Top-level Entity Name           ; binaryAddSub                                ;
@@ -243,7 +243,7 @@ The pin-out file can be found in C:/Users/Charles/Documents/Projects/CPEN312_Lab
 ;     -- 5 input functions                                    ; 0                  ;       ;
 ;     -- 4 input functions                                    ; 8                  ;       ;
 ;     -- <=3 input functions                                  ; 11                 ;       ;
-; Combinational ALUT usage for route-throughs                 ; 7                  ;       ;
+; Combinational ALUT usage for route-throughs                 ; 6                  ;       ;
 ;                                                             ;                    ;       ;
 ; Dedicated logic registers                                   ; 16                 ;       ;
 ;     -- By type:                                             ;                    ;       ;
@@ -281,8 +281,8 @@ The pin-out file can be found in C:/Users/Charles/Documents/Projects/CPEN312_Lab
 ; Peak interconnect usage (total/H/V)                         ; 0.5% / 0.4% / 0.7% ;       ;
 ; Maximum fan-out                                             ; 9                  ;       ;
 ; Highest non-global fan-out                                  ; 9                  ;       ;
-; Total fan-out                                               ; 136                ;       ;
-; Average fan-out                                             ; 1.62               ;       ;
+; Total fan-out                                               ; 135                ;       ;
+; Average fan-out                                             ; 1.63               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -317,7 +317,7 @@ The pin-out file can be found in C:/Users/Charles/Documents/Projects/CPEN312_Lab
 ;     -- 5 input functions                                    ; 0                    ; 0                              ;
 ;     -- 4 input functions                                    ; 8                    ; 0                              ;
 ;     -- <=3 input functions                                  ; 11                   ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 7                    ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 6                    ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
 ;     -- 32-address deep                                      ; 0                    ; 0                              ;
@@ -345,7 +345,7 @@ The pin-out file can be found in C:/Users/Charles/Documents/Projects/CPEN312_Lab
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 136                  ; 0                              ;
+;     -- Total Connections                                    ; 135                  ; 0                              ;
 ;     -- Registered Connections                               ; 32                   ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
@@ -382,7 +382,7 @@ The pin-out file can be found in C:/Users/Charles/Documents/Projects/CPEN312_Lab
 ; KEY[1] ; W9    ; 3A       ; 11           ; 0            ; 34           ; 8                     ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW0    ; U13   ; 4A       ; 33           ; 0            ; 40           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW1    ; V13   ; 4A       ; 33           ; 0            ; 57           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; SW2    ; T14   ; 4A       ; 43           ; 0            ; 17           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; SW2    ; T13   ; 4A       ; 34           ; 0            ; 0            ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW3    ; T12   ; 4A       ; 34           ; 0            ; 17           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW4    ; AA15  ; 4A       ; 36           ; 0            ; 34           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW5    ; AB15  ; 4A       ; 36           ; 0            ; 51           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
@@ -816,8 +816,8 @@ The pin-out file can be found in C:/Users/Charles/Documents/Projects/CPEN312_Lab
 ; T10      ; 91         ; 3B       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; T11      ;            ; 3B       ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; T12      ; 110        ; 4A       ; SW3                             ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; T13      ; 112        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; T14      ; 126        ; 4A       ; SW2                             ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; T13      ; 112        ; 4A       ; SW2                             ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; T14      ; 126        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; T15      ; 159        ; 5A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; T16      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; T17      ; 157        ; 5A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
@@ -1023,7 +1023,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - 74374b:inst1|16~feeder     ; 1                 ; 0       ;
 ; SW2                               ;                   ;         ;
 ;      - 74374b:inst2|15            ; 1                 ; 0       ;
-;      - 74374b:inst1|15~feeder     ; 1                 ; 0       ;
+;      - 74374b:inst1|15            ; 1                 ; 0       ;
 ; SW1                               ;                   ;         ;
 ;      - 74374b:inst2|14            ; 1                 ; 0       ;
 ;      - 74374b:inst1|14            ; 1                 ; 0       ;
@@ -1060,19 +1060,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------+------------------------+
 ; Block interconnects          ; 41 / 140,056 ( < 1 % ) ;
 ; C12 interconnects            ; 14 / 6,048 ( < 1 % )   ;
-; C2 interconnects             ; 22 / 54,648 ( < 1 % )  ;
+; C2 interconnects             ; 23 / 54,648 ( < 1 % )  ;
 ; C4 interconnects             ; 18 / 25,920 ( < 1 % )  ;
 ; DQS bus muxes                ; 0 / 17 ( 0 % )         ;
 ; DQS-18 I/O buses             ; 0 / 17 ( 0 % )         ;
 ; DQS-9 I/O buses              ; 0 / 17 ( 0 % )         ;
 ; Direct links                 ; 0 / 140,056 ( 0 % )    ;
 ; Global clocks                ; 2 / 16 ( 13 % )        ;
-; Local interconnects          ; 10 / 36,960 ( < 1 % )  ;
+; Local interconnects          ; 9 / 36,960 ( < 1 % )   ;
 ; Quadrant clocks              ; 0 / 88 ( 0 % )         ;
-; R14 interconnects            ; 14 / 5,984 ( < 1 % )   ;
-; R14/C12 interconnect drivers ; 19 / 9,504 ( < 1 % )   ;
-; R3 interconnects             ; 23 / 60,192 ( < 1 % )  ;
-; R6 interconnects             ; 38 / 127,072 ( < 1 % ) ;
+; R14 interconnects            ; 13 / 5,984 ( < 1 % )   ;
+; R14/C12 interconnect drivers ; 18 / 9,504 ( < 1 % )   ;
+; R3 interconnects             ; 22 / 60,192 ( < 1 % )  ;
+; R6 interconnects             ; 39 / 127,072 ( < 1 % ) ;
 ; Spine clocks                 ; 2 / 120 ( 2 % )        ;
 ; Wire stub REs                ; 0 / 7,344 ( 0 % )      ;
 +------------------------------+------------------------+
@@ -1253,12 +1253,12 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file C:/Users/Charles/Documents/Projects/CPEN312_Lab2_1/output_files/binaryAddSub.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 6224 megabytes
-    Info: Processing ended: Sun Feb 10 22:52:33 2019
-    Info: Elapsed time: 00:00:19
+    Info: Peak virtual memory: 6223 megabytes
+    Info: Processing ended: Sun Feb 10 23:58:29 2019
+    Info: Elapsed time: 00:00:18
     Info: Total CPU time (on all processors): 00:00:25
 
 
